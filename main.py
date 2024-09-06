@@ -28,7 +28,7 @@ r"""
 """
 ]
 
-player = int(input("What is our pick?\n1 - Rock\n2 - Paper\n3 - Scissors\n")) - 1
+player = int(input("What is our pick?\n1 - Rock\n2 - Paper\n3 - Scissors\n> ")) - 1
 
 # DO NOT ERASE ROWS ABOVE!
 # Build a Rock, Paper, Scissors
