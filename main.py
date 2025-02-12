@@ -1,8 +1,8 @@
 import random
 
-picks = ["Rock", "Paper", "Scissors"]
-rps = [
-r"""
+picks = ("Rock", "Paper", "Scissors")
+rps = (
+"""
     _______
 ---'   ____)
       (_____)
@@ -10,7 +10,7 @@ r"""
       (____)
 ---.__(___)
 """,
-r"""
+"""
     _______
 ---'   ____)____
           ______)
@@ -18,7 +18,7 @@ r"""
          _______)
 ---.__________)
 """,
-r"""
+"""
     _______
 ---'   ____)____
           ______)
@@ -26,7 +26,7 @@ r"""
       (____)
 ---.__(___)
 """
-]
+    )
 
 # this will return the index of the player's choice (notice the -1)
 player = int(input("What is our pick?\n1 - Rock\n2 - Paper\n3 - Scissors\n> ")) - 1
